@@ -6,6 +6,6 @@ nano /usr/bin/nginx_modsite
 
 chmod +x /usr/bin/nginx_modsite
 
-sudo nginx_modsite -l
-sudo nginx_modsite -e
-sudo nginx_modsite -d
+sudo nginx_modsite -l <br>
+sudo nginx_modsite -e <br>
+sudo nginx_modsite -d <br>
