@@ -1,23 +1,28 @@
 # nginx_modsite
 
-<h3 align="left">Requirements</h3>
-- Nginx :tada: <br><br>
+## Requirements
+- Nginx :tada:
 <code>sudo apt install nginx</code>
-<hr>
-<h3 align="left">Install from URL</h3>
 
-<code>curl -s https://koldzo.dev/scripts/nginx_modsite_install.sh | sudo bash</code>
+## Install from URL
 
+<code>curl -s https://raw.githubusercontent.com/koldzo/nginx_modsite/main/install.sh | sudo bash</code>
 
+## Use
 Commands:
 <ul>
-<li>sudo nginx_modsite -l </li>
-<li>sudo nginx_modsite -e </li>
-<li>sudo nginx_modsite -d </li>
+<li><code>sudo nginx_modsite -l</code> </li>
+<li><code>sudo nginx_modsite -e</code> </li>
+<li><code>sudo nginx_modsite -d</code> </li>
 </ul>
-<hr>
 
-<h4 align="left">Connect with me:</h4>
+## Examples
+_List sites:_ <code>sudo nginx_modsite -l</code><br>
+_Enable site:_ <code>sudo nginx_modsite -e mysite.com</code><br>
+_Disable site:_ <code>sudo nginx_modsite -d mysite.com</code> <br>
+
+
+## Connect with me:
 <p align="left">
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/jasminkoldzo/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/jasminkoldzo/" height="30" width="40" /></a>
 </p>
